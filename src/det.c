@@ -29,7 +29,7 @@ int main(int argc, char *argv[]){
   gettimeofday(&end, NULL);
   time_spent = ((end.tv_sec  - start.tv_sec) * 1000000u + end.tv_usec - start.tv_usec) / 1.e6;
 
-  printf("Time: %f\n", time_spent);
+  printf("Time: %f sec\n", time_spent);
 	printf("Determinant: %f\n", determinant);
 
 	return 0;

@@ -24,4 +24,4 @@ clean:
 run:
 	@ clear
 	@ echo "Det OPENMPI"
-	@ ./bin/det -i ./input/matriz1212.raw -N 12 -H 4
+	@ ./bin/det -i ./input/matriz1212.raw -N 12 -H 2
